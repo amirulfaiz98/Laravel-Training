@@ -23,7 +23,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/test', 'ThemeController@index')->name('test');
+Route::get('/bootstrap/test', 'ThemeController@index')->name('test');
 
 // Route::view('/test','index');
 
