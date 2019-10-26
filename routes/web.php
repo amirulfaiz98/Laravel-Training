@@ -26,3 +26,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/test', 'ThemeController@index')->name('test');
 
 // Route::view('/test','index');
+
+Route::fallback(function() {
+    return 'Hm, takde apa pun kat situ';
+});
